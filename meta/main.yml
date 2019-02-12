@@ -1,0 +1,26 @@
+---
+galaxy_info:
+  role_name: epel
+  author: pstauffer
+  description: EPEL Repo
+  company: confirm IT solutions GmbH
+
+  license: license (MIT)
+
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: EL
+      versions:
+      - 6
+      - 7
+
+  galaxy_tags:
+    - repo
+    - epel
+    - fedora
+    - redhat
+    - centos
+    - rhel
+
+dependencies: []
